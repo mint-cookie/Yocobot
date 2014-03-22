@@ -1,6 +1,3 @@
-if Gelatobot == nil then
-	Gelatobot = loadfile("gelato.lua")()
-end
 local piece_lookup = { [0] = "empty", [1] = "heart", [2] = "bloom", [3] = "green", [4] = "check", [5] = "torus", [13] = "yoshi" }
 if Gelatobot ~= nil then
 	Devilbot = Gelatobot:new(1)
